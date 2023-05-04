@@ -3,7 +3,6 @@
   margin: 0;
   border: 0;
   outline: 0;
-  background-color: inherit;
   color: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -151,6 +150,7 @@ button {
   font-size: 0.9rem;
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
+  background-color: inherit;
 }
 
 .btn--outline {
@@ -287,6 +287,10 @@ main {
 
 .about .link--icon {
   margin-right: 0.8em;
+}
+
+.contact .btn--outline {
+  margin-right: 1em;
 }
 
 .about .btn--outline {
@@ -429,4 +433,5 @@ main {
 
 .first-section .user {
   margin-top: 2rem;
+
 
