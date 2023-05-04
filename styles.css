@@ -60,6 +60,14 @@ body {
   color: var(--clr-bg);
 }
 
+blockquote {
+  border-left: 10px solid #64962E;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+
 h1,
 h2,
 h3,
